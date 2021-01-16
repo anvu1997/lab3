@@ -6,6 +6,7 @@
     <title>Welcome to An Vu's GitHub Pages</title>
     <p><a href="https://anvu1997.github.io/Lab1/">Visit My Pages!</a></p>
   </head>
+	
   <body>
     <header class="page-header">
       <h2>Lab2</h2>
@@ -25,7 +26,9 @@
       </ul>
       </div>
     </section>
+	   
     <hr>
+	   
     <section>
       <p>Things I like to do during my free time:</p>
       <div>
@@ -37,12 +40,135 @@
       </ol>
       </div>
     </section>
+	   
     <hr>
+	   
     <section>
-      <p>My <strong>to do list</strong> for this year:</p>
       <div>
+	<form method="post">
+	<fieldset>
+	<legend>My <strong>to do list</strong> for this year:</legend>
+	<input type="checkbox" id="classes" name="classes">
+	<label for="classes">Pass all my classes</label><br/>
+	<input type="checkbox" id="country" name="country"> 
+	<label for="country">Visit my home country</label><br/>
+	<input type="checkbox" id="travel" name="travel">
+	<label for="travel">Travel to other countries nearby</label><br/>
+	<input type="checkbox" id="stocks" name="stocks"> 
+	<label for="stocks">Make money in stocks</label><br/>
+	</fieldset>
+	</form>
+	<label for="icecream">Choose a favorite ice cream:</label>
+	<select id="icecream">
+    	<optgroup label="flavors">
+        <option>Vanilla</option>
+        <option>Chocolate</option>
+        <option>Strawberry</option>
+    	</optgroup>
+	</select>
       </div>
     </section>
+    <label for="id">Enter your name:</label>
+    <input type="text" id="id" name="id" />
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+	   <hr>
+    <label for="email">Enter your email:</label>
+    <input type="email"> 
+	   <hr>
+    <label for="date">Enter your current date:</label>
+    <input type="date"> 
+	   <hr>
+    <label for="time">Enter your current time:</label>
+    <input type="time">
+	   <hr>
+    <label for="hours">Hours spend on the lab(1-10):</label>
+    <input type="number" id="hours" name="hours" min="1" max="10">
+	   <hr>
+    <label for="site">Search the website:</label>
+    <input type="search" id="site" name="q"
+       aria-label="Search through website">
+    <button>Go</button>
+	   <hr>
+	   
+    <details>
+    <summary>I wrote something secret.</summary>
+    Something secret.
+    </details>
+	   
+    <p><label for="market">Selling:</label></p>
+    <textarea id="market" name="market" rows="1" cols="60">
+	    Selling a 3070 FE for $600...
+    </textarea>
+	   
+    <p><label for="games-choice">Choose a favorite game:</label></p>
+    <input list="my-games" id="games-choice" name="games-choice" />
+    <datalist id="my-games">
+    <option value="League of Legends">
+    <option value="Valorant">
+    <option value="Among Us">
+    <option value="Player Unknown Battle Ground">
+    <option value="Any Games">
+    </datalist>
+	   
+    <p><label for="color-select">Choose a favorite color:</label></p>
+    <select name="colors" id="color-select">
+    <option value="">--Please choose a color--</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="yellow">Yellow</option>
+    <option value="purple">Purple</option>
+    <option value="pink">Pink</option>
+    <option value="black">Black</option>
+    </select>
+	   <hr>
+    <table id="stocks">
+    <caption>Price of Stocks before and after covid</caption>
+    <colgroup>
+      <col style="background-color: #0f0">
+      <col span="1" class="Stocks">
+      <col span="1" class="Before">
+      <col span="1" class="After">
+    </colgroup>
+    <tr>
+     <th scope="col">Stocks</th>
+     <th scope="col">Before</th>
+     <th scope="col">After</th>
+    </tr>
+    <tr>
+     <th scope="row">Tesla</th>
+     <td>$400</td>
+     <td>$4000</td>
+    </tr>
+    <tr>
+     <th scope="row">Amazon</th>
+     <td>$2000</td>
+     <td>$3100</td>
+    </tr>
+    <tr>
+     <th scope="row">Apple</th>
+     <td>$60</td>
+     <td>$120</td>
+    </tr>    
+    </table>
+	   
+	   <hr>
+	   
+    <table id="empty">
+    <thead>
+    <tr>
+      <td>Column 1</td>
+      <td>Column 2</td>
+    </tr>
+    </thead>
+    </table>
+    <template id="empty">
+    <tr>
+      <td class="record"></td>
+      <td></td>
+    </tr>
+    </template>
+	   
     <p>The function <code>auto()</code> here on this page does not works at all.
     <pre>
     This text is on the left side                                                           This is on the right side
@@ -50,18 +176,24 @@
     </pre>
     <p>This sentence is really really long so I have to use the break method to go down a line<br> so I don't have to retype p method again for the other half of the sentence. Yeah, this is long.</p>
    </main>
+	  
    <figure>
     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=980:*"
          alt="Just A Puppy">
     <figcaption>Just a Puppy</figcaption>
-	 </figure>
+   </figure>
 	<footer>@ Heartapp.com</footer>
-   <nav class="menu">
-    <ol>
-        <li class="menu"><a href="#page-header">header</a></li>
-        <li class="menu"><a href="#main">main</a></li>
-    </ol>
-   </nav>
+   <hr>
+   <canvas width="200" height="200">
+   </canvas>
+   <svg viewBox="0 0 50 50" x="200" width="100">
+	<circle cx="5" cy="5" r="4" />
+   </svg>
+   <picture>
+    <source srcset="/Shark.jpg"
+            media="(min-width: 800px)">
+    <img src="/Shark.jpg" alt="" />
+   </picture>
    <pre>
                                  <iframe id="inlineFrameExample"
                                   title="Inline Frame Example"
@@ -72,12 +204,30 @@
 </pre>
   <figure>
     <figcaption>This is what I sound like:</figcaption>
-    <audio
-        controls
-        src="Recording.m4a">
+    <audio controls
+        src="/Recording.m4a">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
 </figure>
-   </body>
+<video controls
+    src="https://r2---sn-nx5e6nez.googlevideo.com/videoplayback?expire=1610856300&ei=C2MDYJn4OpXIhwaynq2IDg&ip=107.191.111.58&id=o-ANK2xpOfr9lOUwKK7ial-tzJVedom1S87FqIb29jGze2&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&ns=ijWYYGzWAXPN3FuXhnbyajIF&gir=yes&clen=18219318&ratebypass=yes&dur=321.573&lmt=1596463475485233&fvip=2&beids=9466588&c=WEB&txp=5531432&n=JjzNYhxEUoEHsq&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgaDLZJsrFZs3TsgGWYDf86TkuJjWe3X4A48sQ7JzGh_ACIQCobLorMZ6o_swHWJYQrhUZv8pPNObQdRD6asa7FDUI9w==&title=N%C3%A0ng+Th%C6%A1+%7C+Ho%C3%A0ng+D%C5%A9ng+%7C+Official+MV&cms_redirect=yes&mh=q0&mip=73.180.46.240&mm=31&mn=sn-nx5e6nez&ms=au&mt=1610834205&mv=m&mvi=2&pl=18&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAITsCAkxLmFlu1_qIHAIA9RQiNSZf2p8eAfUsa8Kz2ifAiEA2bZVgxDKJ0Mwavf9oPrK_sBH4RtQf2mTb7BDUjlrEBM%3D"
+    width="620">
+</video>
+<footer>@ Hoang Dung</footer>
+	  
+	<hr>
+
+<button class="favorite styled"
+        type="button">
+    BUZZ!
+</button>
+	 
+ <nav class="menu">
+    <ol>
+        <li class="menu"><a href="#page-header">header</a></li>
+        <li class="menu"><a href="#main">main</a></li>
+    </ol>
+   </nav>
+</body>
 </html>
