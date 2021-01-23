@@ -63,13 +63,9 @@ figure > figcaption {
   display: none;
 }
 
-@media (max-width: 600px) {
-    span {
-      width: 60%;
-        display: block;
-    }
+span {
+  display: block;
 }
-
 
 section + label{
   color: yellow;
