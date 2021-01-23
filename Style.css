@@ -40,11 +40,10 @@ h1 {
   margin: 30px;
   border: 5px solid green;   
 }
-a[target=_website] {
+a[target=_website]:active {
   font-size: 150%;
   background-color: yellow;
   color: red;
-  position:initial;
 }
 
 h2:hover {
@@ -69,6 +68,10 @@ span {
 
 section + label{
   color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
 
 label ~ p{
