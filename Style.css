@@ -1,10 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-
+*{}
 main section {
   border-style: dotted;
-  border-color: purple;
+  border-color: red;
   border-width: thin;
   border-radius: 25x;
 }
