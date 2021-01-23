@@ -20,12 +20,6 @@ main section {
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
 }
-
-@media screen and (max-width: 600px) {
-  .table {
-    float: none;
-    width: 100%;
-  }
   
 #icecream {
   background-color: green;
@@ -106,3 +100,8 @@ ol {
   grid-template-rows: auto;
   grid-template-areas: "I dont know what im doing";
 }
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+  }
