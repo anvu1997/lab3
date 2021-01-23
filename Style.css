@@ -81,3 +81,8 @@ nav.menu {
   padding-left: 1cm;
   border: 10px solid blue;   
 }
+
+picture {
+  max-width: 50%;
+  max-height: 100px;
+}
