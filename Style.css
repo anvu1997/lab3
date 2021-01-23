@@ -49,7 +49,7 @@ figure > figcaption {
   display: none;
 }
 pre + p{
-   color: green;
+   color: blue;
 }
 
 label ~ p{
