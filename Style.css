@@ -44,3 +44,10 @@ ol, ul {
   font-size: 1.2em;
   color: rgba(77, 77, 7, 7);
 }
+
+figure > figcaption {
+  display: none;
+}
+template + pre {
+   color: yellow;
+}
