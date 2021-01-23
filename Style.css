@@ -14,6 +14,7 @@ main section {
   color: hsl(77, 80%, 20%);
   font-family: 'Potta One', cursive;
   border: 1ch solid white;
+  position: sticky;
 }
 
 #icecream {
@@ -39,6 +40,7 @@ a[target=_website] {
   font-size: 150%;
   background-color: yellow;
   color: red;
+  position:initial;
 }
 
 h2:hover {
