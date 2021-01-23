@@ -92,6 +92,6 @@ nav.menu {
 
 ol {
   display:grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-  grid-template-rows: 25% 100px auto;
+  grid-template-columns: 20px 20px auto 20px 20px;
+  grid-template-rows: 25% 20px auto;
 }
