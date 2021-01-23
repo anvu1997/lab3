@@ -17,13 +17,13 @@ main section {
 }
 
 p {
-  color: white;
+  color: #e75480;
 }
 
 a[target] {
   font-size: 150%;
   background-color: yellow;
-  color: #00fff0;
+  color: red;
 }
 
 h2:hover {
@@ -41,5 +41,5 @@ section p {
 }
 
 * {
-  color: pink;
+  background-color: black;
 }
