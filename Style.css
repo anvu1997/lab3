@@ -48,8 +48,12 @@ ol, ul {
 figure > figcaption {
   display: none;
 }
+
+span {
+  display: block;
+}
+
 section + label{
-  display: inline;
   color: yellow;
 }
 
