@@ -51,3 +51,7 @@ figure > figcaption {
 pre + p{
    color: yellow;
 }
+
+label ~ p{
+  color: yellow;
+}
