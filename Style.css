@@ -48,6 +48,6 @@ ol, ul {
 figure > figcaption {
   display: none;
 }
-template + pre {
+pre + p{
    color: yellow;
 }
