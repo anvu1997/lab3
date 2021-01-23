@@ -1,6 +1,6 @@
 ---
 name: Missing File
-about: Describe this issue template's purpose here.
+about: Missing file Style.css
 title: ''
 labels: ''
 assignees: ''
