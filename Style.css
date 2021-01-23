@@ -1,0 +1,42 @@
+*{}
+main section {
+  border-style: dotted;
+  border-color: red;
+  border-width: thin;
+  border-radius: 25px;
+}
+
+.page-header {
+  background-color: yellow;
+  color: hsl(77, 80%, 20%);
+  font-family: 'Potta One', cursive;
+}
+
+#icecream {
+  background-color: green;
+  color: hsla(77, 80%, 20%, .3);
+}
+
+p {
+  color: blue;
+}
+
+a[target] {
+  font-size: 150%;
+  background-color: yellow;
+  color: #00fff0;
+}
+
+h2:hover {
+  color: rgb(77, 7, 7);
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+ol, ul {
+  color: rgba(77, 77, 7, 7);
+}
+
+section p {
+  display: block;
+}
