@@ -92,7 +92,7 @@ nav.menu {
 
 ol {
   display:grid;
-  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-columns: 100px 100px 100px 100px 100px;
   grid-template-rows: auto;
   grid-template-areas: "I dont know what im doing";
 }
