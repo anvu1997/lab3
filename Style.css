@@ -3,7 +3,7 @@ main section {
   border-style: dotted;
   border-color: red;
   border-width: thin;
-  border-radius: 25x;
+  border-radius: 25px;
 }
 
 .page-header {
