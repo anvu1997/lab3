@@ -1,3 +1,7 @@
+* {
+  background-color: black;
+}
+
 main section {
   border-style: dotted;
   border-color: red;
@@ -38,8 +42,4 @@ ol, ul {
 
 section p {
   display: block;
-}
-
-* {
-  background-color: black;
 }
