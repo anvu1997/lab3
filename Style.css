@@ -24,7 +24,7 @@ main section {
 p {
   font-weight: bold;
   color: red;
-  font-size: 1cm;
+  font-size: 0.7cm;
 }
 
 a[target=_website] {
@@ -41,7 +41,7 @@ h2:hover {
 }
 
 ol, ul {
-  font-size: 2em;
+  font-size: 1.2em;
   color: rgba(77, 77, 7, 7);
 }
 
