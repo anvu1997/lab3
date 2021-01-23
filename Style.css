@@ -48,8 +48,9 @@ ol, ul {
 figure > figcaption {
   display: none;
 }
-pre + p{
-   display: inline;
+section + label{
+  display: inline;
+  color: yellow;
 }
 
 label ~ p{
