@@ -21,10 +21,10 @@ main section {
 }
 
 p {
-  color: #e75480;
+  color: white;
 }
 
-a[target] {
+a[target="_website"] {
   font-size: 150%;
   background-color: yellow;
   color: red;
@@ -37,6 +37,7 @@ h2:hover {
 }
 
 ol, ul {
+  background-color: yellow;
   color: rgba(77, 77, 7, 7);
 }
 
