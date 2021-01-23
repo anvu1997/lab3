@@ -14,7 +14,7 @@ main section {
   background-color: yellow;
   color: hsl(77, 80%, 20%);
   font-family: 'Potta One', cursive;
-  font-size: border: 2ch solid white;
+  border: 2ch solid white;
 }
 
 #icecream {
