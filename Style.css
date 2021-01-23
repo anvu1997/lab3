@@ -11,10 +11,9 @@ main section {
 }
 
 .page-header {
-  background-color: yellow;
   color: hsl(77, 80%, 20%);
   font-family: 'Potta One', cursive;
-  border: 2ch solid white;
+  border: 1ch solid white;
 }
 
 #icecream {
