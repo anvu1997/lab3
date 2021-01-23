@@ -1,5 +1,6 @@
 * {
   background-color: black;
+  color: #e75480;
 }
 
 main section {
@@ -21,7 +22,7 @@ main section {
 }
 
 p {
-  color: white;
+  font-weight: bold;
 }
 
 a[target="_website"] {
