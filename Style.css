@@ -92,8 +92,7 @@ nav.menu {
 
 ol {
   display: grid;
-  grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: row1-start;
-  grid-row-end: 3;
+  grid-template-columns: 25% 50px auto 50px 40px;
+  grid-template-rows: 25% 50px auto;
+  margin: 0 auto;
 }
