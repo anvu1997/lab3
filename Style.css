@@ -1,5 +1,5 @@
 /*change the page to dark mode with pink color text*/
-{
+* {
   background-color: black;
   color: #e75480;
 }
@@ -63,8 +63,11 @@ figure > figcaption {
   display: none;
 }
 
-span {
-  display: block;
+@media (max-width: 600px) {
+    span {
+      width: 60%;
+        display: block;
+    }
 }
 
 
